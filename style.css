@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    border: border-box;
+}
+#header-top{
+    position: relative;
+    background-color: white;
+}
+
+/* ___________________Mouse pointer Hobar effect_________________________ */
+.border {
+    border: 2px solid transparent;
+
+}
+.border:hover {
+    border: 2px solid rgb(237, 235, 235);
+}
+
+
+
+/* __________________HEADER-TOP___________________________ */
+#he-to {
+    height: 36px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+
+}
+.ht-box1 {
+    margin-left: 5rem;
+}
+
+
+
+
+.ht-box1 a,.ht-box2 a {
+    font-size:0.87rem;
+    color:white;
+    margin-left:0.5rem;
+    text-decoration:none
+}
+.ht-box1 i,.ht-box2 i {
+    color:white;
+    margin-left:0.5rem;
+    font-size:0.87rem}
+
+
+
+
+
+
+
+
+
+
+/* __________________HEADER__________________________ */
+
+#header {
+    height: 109px;
+    background-color: rgb(158, 212, 110);
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(132, 101, 101);
+    display: flex;
+   
+}
+.hed-logo {
+    height: 80px;
+    width: 224px;
+    /* For matching head top size */
+    margin-left: 5rem;
+}
+.logo {
+    background-image: url(images/logo.png);
+    background-size: cover;
+    height: 80px;
+    width: 224px;
+}
+
+#header-navbar {
+    width: 780px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+    background-color: aqua;
+    
+}
+
+
+
+
+
+
+/* ______________________________________________ */
+
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+.menu li a.highlight {
+    background-color: #ff9900;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.menu li a.highlight:hover {
+    background-color: #cc7a00;
+}
+
+
+
+
+
+
+ table, th, td{
+    border: 2px solid;
+    border-color: #059c7b;
+ }
